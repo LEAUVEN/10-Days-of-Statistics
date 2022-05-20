@@ -1,0 +1,11 @@
+n=int(input())
+numbers = sorted(list(map(int, input().split())))
+toplam=0
+for x in numbers:
+    toplam=toplam+x
+    toplam_1=toplam/n
+hesap=0
+for y in numbers:
+    hesap=hesap+((y-toplam_1)**2)
+hesap_2=(hesap/n)**(1/2)
+print(hesap_2)
