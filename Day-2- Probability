@@ -1,0 +1,35 @@
+---##|----------------------------|##--- Basic Probability ---##|----------------|##---
+1 zarda 6 olasılık var. {1,2,3,4,5,6}
+2 zarda 6*6 dan 36 olasılık var demektir.
+Bizim için ihtiyacıımız olan olasılıklar 9a eşit yada küçük olanlar.
+(1,1)(1,2)(1,3)(1,4)(1,5)(1,6) >>> 6
+(2,1)(2,2)(2,3)(2,4)(2,5)(2,6) >>> 6
+(3,1)(3,2)(3,3)(3,4)(3,5)(3,6) >>> 6
+(4,1)(4,2)(4,3)(4,4)(4,5)      >>> 5
+(5,1)(5,2)(5,3)(5,4)           >>> 4
+(6,1)(6,2)(6,3)                >>> 3
+toplam 30 olasılık.
+9 dan küçük yada eşit olma ihtimali = 30/36 == 5/6 
+Answer is 5/6.
+---##|----------------------------|##--- More Dice ---##|----------------|##---
+6 ya eşit olma ve zarların farklı olma ihtimali.
+(1,5)(2,4)(5,1)(4,2) olasılıkları karşılıyor sadece.
+toplam olasılığımız 36 hala.
+Answer is 4/36==1/9
+
+---##|----------------------------|##--- Compound Event Probability ---##|----------------|##---
+2 kırmızı ve 1 siyah top bulma ihtimali.
+
+Urn-X içerisinde kırmızı bulma ihtimalimiz = 4/7
+Urn-Y içerisinde kırmızı bulma ihtimalimiz = 5/9
+Urn-Z içerisinde kırmızı bulma ihtimalimiz = 1/2
+
+Urn-X içerisinde siyah bulma ihtimalimiz = 3/7
+Urn-Y içerisinde siyah bulma ihtimalimiz = 4/9
+Urn-Z içerisinde siyah bulma ihtimalimiz = 1/2
+
+P(2 Red , 1 Black) = P(RED RED BLACK ) + P(RED BLACK RED)+ P(BLACK RED RED):
+                   = (4/7)(5/9)(1/2) + (4/7)(4/9)(1/2) + (3/7)(5/9)(1/2)
+                   = 20/126 + 16/126 + 15/126
+                   = 51/126 >>>>>> 17/42 
+Answer is 17/42
