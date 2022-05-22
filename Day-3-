@@ -1,0 +1,12 @@
+# ---- # ---- # ---- # ---- # ---- # ---- # Day 3: Conditional Probability # ---- # ---- # ---- # ---- # ---- # ---- #
+
+P(BB)/(P(BB)+P(BG)+P(GB))=(1/4)/(3/4) = 1/3
+
+# ---- # ---- # ---- # ---- # ---- # ---- # Day 3: Cards of the Same Suit # ---- # ---- # ---- # ---- # ---- # ---- #
+P(The first pick) = 1
+P(The Second pick with the same suit) = 12 same suit / 51 remain cards. 
+P= 1*12/51 = 12/51
+
+# ---- # ---- # ---- # ---- # ---- # ---- # Day 3: Drawing Marbles # ---- # ---- # ---- # ---- # ---- # ---- #
+The first pick = Red, After the first pick > 2 red and 4 blue marbles.
+The second pick have to be Blue, so P(B) >> 4 Blue marbles / (2Red + 4 Blue)= 4/6 or 2/3
